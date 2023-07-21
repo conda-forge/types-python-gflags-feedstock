@@ -1,5 +1,5 @@
 {% set name = "types-python-gflags" %}
-{% set version = "3.1.7.2" %}
+{% set version = "3.1.7.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-python-gflags-{{ version }}.tar.gz
-  sha256: cb145404df63f143bcd7d0192275e0131e03d3b6f8bd59b88f7efe43ef22a4e4
+  sha256: f5dafd8d47235b4a195333c8ee41994077f40dac1d1a9ac6fcf95b93a47caff5
 
 build:
   number: 0
